@@ -1,3 +1,16 @@
 body{
   background-color: peru;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border: solid 10px rgb(161, 97, 33); /* Mueve el border al body */
+  margin: 0; /* Elimina márgenes innecesarios del body */
+  box-sizing: border-box; /* Incluye el border en el cálculo del tamaño total */
+}
+header{
+  text-align: center;
+}
+h1{
+  margin: 0 ;
 }
